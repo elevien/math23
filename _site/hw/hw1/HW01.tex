@@ -93,16 +93,16 @@ for some constant $\mu$.
 \begin{enumerate}
 \item[(a)] The solution is 
 \begin{equation}
-p(t) = 900 + ce^{t/2} \quad\quad \text{ \pts{identify solution + 2 point}}
+p(t) = 900 + ce^{t/2} \quad\quad \text{ \pts{identify solution +2 points}}
 \end{equation}
 To find $c$ we set $p(0) = 850$: 
 \begin{equation}
-850 = 900 + c \implies c = -50 \quad\quad \text{\pts{solve for $c$ + 1 point} }
+850 = 900 + c \implies c = -50 \quad\quad \text{\pts{solve for $c$ +1 point} }
 \end{equation}
 To find the time the population goes extinct, we set $p(t_{\rm ex}) = 0$ and solve for $t_{\rm ex}$: 
 \begin{align}
 900 -50 e^{t_{\rm ex}/2} =0 &\implies e^{t_{\rm ex}/2}  = \frac{900}{50} =18\\
-&\implies t_{\rm ex} = 2 \ln18  \quad\quad \text{\pts{solve for $t_{\rm ex}$ + 2 point} }
+&\implies t_{\rm ex} = 2 \ln18  \quad\quad \text{\pts{solve for $t_{\rm ex}$ +2 point} }
 \end{align}
 \item[(b)] The same idea as (a): First find $c$
 \begin{equation}
@@ -111,58 +111,83 @@ p_0 = 900 + c \implies c = p_0-900
 and find $t_{\rm ex}$
 \begin{align}
 900 -(p_0-900) e^{t_{\rm ex}/2} =0 &\implies e^{t_{\rm ex}/2}  = \frac{900}{p_0-900}\\
-&\implies t_{\rm ex} = 2 \ln\frac{900}{p_0-900} \quad\quad \text{ \pts{repeat (a) with general $p_0$  + 2 point} }
+&\implies t_{\rm ex} = 2 \ln\frac{900}{p_0-900} \quad\quad \text{ \pts{repeat (a) with general $p_0$  +2 point} }
 \end{align}
 \item[(c)]  If $t_{\rm ex} = 1$, 
 \begin{align}
 t_{\rm ex}  =1= 2 \ln\frac{900}{p_0-900}&\implies  \frac{900}{p_0-900} =e^{1/2}\\
 &\implies p_0-900 = \frac{900}{e^{1/2}} \\
-&\implies p_0 =   900 + \frac{900}{\ln 2} = 900\left(1+ \frac{1}{e^{1/2}} \right) \quad \text{ \quad \text{\pts{ + 2 point}}}
+&\implies p_0 =   900 + \frac{900}{\ln 2} = 900\left(1+ \frac{1}{e^{1/2}} \right) \quad \text{ \quad \text{\pts{ +2 point}}}
 \end{align}
 
 \end{enumerate}
 
 
 % --------------------------------------------------------------------------------------------------------------------------------------------
-\subsection*{\# 10 \grade}
-
-
-% --------------------------------------------------------------------------------------------------------------------------------------------
-\subsection*{\# 12}
+\subsection*{\# 12 \grade \, \pts{6 points}}
 \begin{enumerate}
 \item[(a)] Solving the differential equation for $Q$ yields exponential decay
-\begin{equation}
-Q = Q(0)e^{-rt}
+\begin{equation}\label{eq:10:12a}
+Q = Q(0)e^{-rt} \quad \quad \text{\pts{ +1 point}}
 \end{equation}
 For this problem $Q(0) = 100{\rm mg}$ and at $t=1$ (assuming we measure $t$ in weeks) $Q(t) = 82.04$. Plugging these values in to the solutions yields an equation for $r$: 
-\begin{equation*}
-82.04 = 100 e^{-r} \implies r =  \ln \frac{100}{82.04} \approx 1.97
-\end{equation*}
+\begin{equation}
+82.04 = 100 e^{-r} \implies r =  \ln \frac{100}{82.04} \approx 1.97 \quad  \quad \text{\pts{ +2 point}}
+\end{equation}
+\item[(b)] This is given by Equation \eqref{eq:10:12a} with the values found above:  
+\begin{equation}
+Q = 100e^{-1.97 t}\quad \quad \text{\pts{ +1 point}}
+\end{equation}
+\item[(c)] Let $t_{1/2}$ be the time to decay to have the original amount. To find $t_{1/2}$ we solve 
+\begin{equation}
+Q(t) = \frac{1}{2}Q(0) =Q(0)e^{-rt_{1/2}}   \quad \quad  \text{\pts{ +1 point}}
+\end{equation}
+which yields 
+\begin{equation}
+t_{1/2} = - \frac{1}{r} \ln \frac{1}{2} = \frac{1}{r} \ln 2 = \frac{1}{1.97}\ln (2) \quad\quad \text{\pts{ +1 point}}
+\end{equation}
 \end{enumerate}
 
 
-% --------------------------------------------------------------------------------------------------------------------------------------------
-\subsection*{\# 17}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage
 \section*{Section 1.3}
 
 % --------------------------------------------------------------------------------------------------------------------------------------------
-\subsection*{\# 11 \grade}
+\subsection*{\# 11 \grade \,\pts{6 points}}
 Starting with $y_1$, the derivatives are
 \begin{align}
-y' &= \frac{1}{2}t^{1/2-1} = \frac{1}{2t^{1/2}} \quad\quad \text{\pts{+1}}\\
-y'' &= -\frac{1}{2} \frac{1}{2t^{1/2+1}} = -\frac{1}{4t^{3/2}} \quad\quad \text{\pts{+1}}
+y' &= \frac{1}{2}t^{1/2-1} = \frac{1}{2t^{1/2}} \quad\quad \text{\pts{+1 point}}\\
+y'' &= -\frac{1}{2} \frac{1}{2t^{1/2+1}} = -\frac{1}{4t^{3/2}} \quad\quad \text{\pts{+1 point}}
 \end{align}
 Hence 
 \begin{align}
 -2t^2y'' + 3ty' - y &= 2\frac{t^2}{4t^{3/2}}  +\frac{3t}{2t^{1/2}} - y\\
-&= -\frac{1}{2}t^{1/2} + \frac{3}{2}t^{1/2} - t^{1/2} = t^{1/2} - t^{1/2} \quad\quad \text{\pts{+1}}
+&= -\frac{1}{2}t^{1/2} + \frac{3}{2}t^{1/2} - t^{1/2} = t^{1/2} - t^{1/2} \quad\quad \text{\pts{+1 point}}
 \end{align}
+For $t_2$ we have
+\begin{align}
+y' &=-t^{-2}  \quad\quad \text{\pts{+1 point}}\\
+y'' &= 2 t^{-3} \quad\quad \text{\pts{+1 point}}
+\end{align}
+hence 
+\begin{align}
+-4t^{-1} - 3t^{-1}- t^{-1} = 0  \quad\quad \text{\pts{+1 point}}
+\end{align}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Additional Questions}
+
+% --------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
 
 \end{document}
 

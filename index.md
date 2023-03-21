@@ -16,7 +16,7 @@ logo: logo.svg
 
  **Prerequisites**: 
 
- **Course objectives**: You will learn the basic methods for solving differential equations analytically. You will also 
+ **Course objectives**: You will learn the basic methods for solving ordinary differential equations (variation of parameters, integrating factors) and qualitative analysis of solutions (linear stability analysis and phase plane analysis). You will also learn how to build ODE models of physical, biological and social systems. 
 
 
 
@@ -41,7 +41,13 @@ You will submit you solutions to gradescope (approximately) every week before I 
 
 The # of points you get for each self-evaluations are simply the score you've given yourself plus an additional point for providing an explanation of what you did wrong. The graders will simply review your self-evaluations. -->
 
+## Homework
 
+Each week I will assign exercises from the book, and occasionally some I have written. You’ll turn these in the following week on Thursday through canvas. Problems should be in the order they are assigned. They can be typed or hand written, but if I reserve the right to subtract points if I’m unable to parse them.  Once these are turned in, I will post solutions, which you will use to grade your assignment and turn in the evaluation the following week. You should review all the solutions, but you only need to turn in your evaluations for a subset of problems which will be marked. For these problems I will include a rubric. 
+
+I will review your self evaluation to ensure you are being honest (and not being too hard on yourself). If I see no issues, you will be assigned the grade that you gave yourself. 
+
+The goal of the self-evaluation is to help you engage more deeply with the materiel. I understand is gives you additional work, but try to keep this in mind when considering the quantity of HW assigned. If you would like to receive more feedback on your homework from me, please do not hesitate to reach out. I am always happy to review HW solutions during office hours and xhours. 
 
 ## Resources
 
@@ -93,13 +99,16 @@ All section numbers are from Boyce and DiPrima unless otherwise noted.
 	**Assignments:** HW8 Due Thursday, HW6 self evaluation
 
 
-## Homework assignments
+<!-- ## Homework assignments
 
-* HW1: 
-* HW2: 
-* HW3: 
+* HW1 (due 3/30)
+	- Section 1.1:1,3
+	- Section 1.2:7,12
+	- Section 1.3:11
+* HW2 (due 4/06)
+* HW3 (due 4/06) 
 * HW4: 
-* HW5: 
+* HW5:  -->
 
 ## Accessibility Needs
 <p> Students with disabilities who may need disability-related academic adjustments and services for this course are encouraged to see me privately as early in the term as possible. Students requiring disability- related academic adjustments and services must consult the Student Accessibility Services office (Carson Hall, Suite 125, 646-9900). Once SAS has authorized services, students must show the originally signed SAS Services and Consent Form and/or a letter on SAS letterhead to me. As a first step, if students have questions about whether they qualify to receive academic adjustments and services, they should contact the SAS office. All inquiries and discussions will remain confidential.  </p>
