@@ -6,7 +6,7 @@
 \usepackage{multicol}
 \pagestyle{head}
 \definecolor{c01}{HTML}{FFBBDD}
-\header{MATH 23 }{HW1}{due February 9, 5pm}{}
+\header{MATH 23 \pts{31 points} }{HW1}{due February 9, 5pm}{}
 \runningheadrule
 \headrule
 \usepackage{diagbox}
@@ -51,7 +51,7 @@
 \end{figure}
 \noindent
 \pts{Correct drawing of vector field + 1 point}
-Regardless of the initial condition, the solution will tend towards $y=3/2$. 
+For 
 \pts{Long-term behavior + 1 point}
 
 % --------------------------------------------------------------------------------------------------------------------------------------------
@@ -62,7 +62,7 @@ Regardless of the initial condition, the solution will tend towards $y=3/2$.
 \includegraphics[width=0.5\textwidth]{./1p1_3.pdf}
 \end{figure}
 \noindent \pts{Correct drawing of vector field + 1 point}
-Regardless of the initial condition, the solution tend toward $\infty$.  
+For $y(0)>-3/2$ the solution will tend towards $\infty$, while for $y(0)<-3/2$ for the solution will tend towards  $-\infty$. If $y(0) = -3/2$ the solution will stay constant. 
 \pts{Long-term behavior + 1 point}
 
 % --------------------------------------------------------------------------------------------------------------------------------------------
@@ -182,9 +182,27 @@ hence
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section*{Additional Questions}
+\section{Additional Questions}
+
 
 % --------------------------------------------------------------------------------------------------------------------------------------------
+\subsection*{Two State Markov Chain}
+A very important application of ODEs is to describe how probabilities change of time in random, or \emph{stochastic}, processes called continuous time Markov Chains (CTMC). Perhaps the simplest example is a systems (say the confirmation of a molecule) which can be in one of two states, $0$ or $1$, and switches between them at a constant rate $h$. Then the probabilities to be in states $0$ and $1$ ($p_0$ and $p_1$ respectively) obey the system of two differential equations: 
+\begin{align}\label{eq:2state}
+\begin{split}
+\frac{d}{dt}p_0 &=  -hp_0 + h p_1 \\
+\frac{d}{dt}p_1 &=  h p_0  - h p_1. 
+\end{split}
+\end{align}
+These equations are subject to the conservation of probability constraint $p_0 + p_1 = 1$. Solve the differential equations (hint: rewrite the system as a single ODE) and describe the long-term behavior. 
+
+% --------------------------------------------------------------------------------------------------------------------------------------------
+\subsection*{Gene expression}
+A common model for the production of a protein regulated by a transcription factor is to model the transcription factor by a 2 state Markov chain in Equation \eqref{eq:2state}. The production of the protien is proportional to the fraction of time the TF is bound to the DNA. 
+\begin{equation}
+\frac{d}{dt}x(t) = \alpha p_1(t) - \beta x(t)
+\end{equation}
+Wha is the long-term behavior of $x(t)$? 
 
 
 

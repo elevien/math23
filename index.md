@@ -49,6 +49,8 @@ I will review your self evaluation to ensure you are being honest (and not being
 
 The goal of the self-evaluation is to help you engage more deeply with the materiel. I understand is gives you additional work, but try to keep this in mind when considering the quantity of HW assigned. If you would like to receive more feedback on your homework from me, please do not hesitate to reach out. I am always happy to review HW solutions during office hours and xhours. 
 
+See Canvas for assignments. 
+
 ## Resources
 
 **Textbooks**: [Boyce and DiPrima](https://s2pnd-matematika.fkip.unpatti.ac.id/wp-content/uploads/2019/03/Elementary-Diffrential-Aquation-and-Boundary-Value-Problem-Boyce-DiPrima.pdf)
@@ -57,7 +59,7 @@ The goal of the self-evaluation is to help you engage more deeply with the mater
 
 ## Schedule
 
-All section numbers are from Boyce and DiPrima unless otherwise noted. 
+All section numbers are from Boyce and DiPrima unless otherwise noted. This is tentative schedule. See Canvas for assignment due dates. 
 
 * Week 1: 
 	- introduction (1.1,1.2)
@@ -66,19 +68,19 @@ All section numbers are from Boyce and DiPrima unless otherwise noted.
 	- linear first order equations (2.1)
 	- integration factors 
 * Week 2: 
-	- existance-uniqueness theorems (2.4)
+	- linear vs. nolinear ODEs (2.4)
 	- model building (2.3)
 	- separable, autonomous equations and population dynamics  (2.3,2.5)
 	- **Assignments:** HW1 due
 * Week 3:
-	- exact equations (2.6)
 	- second order constant coefficients equations; Wronskian (3.1,3.2)
-	- Complex conjugate roots (3.3)
+	- characteristic equation and complex roots (3.3)
+	- repeated roots and order reductions (3.4) 
 	-  **Assignments:** **Quiz** HW2 Due, HW1 self evaluation
 * Week 4: 
-	- repeated roots and order reductions (3.4) 
 	- method of undetermined coefficients and VoP (3.5,3.6) 
 	- review of matrices (7.1,7.2)
+	- vibrations (3.7)
 	- **Assignments:** HW3 due Thursday, HW2 self evaluation
 * Week 5: 
 	- systems of ODEs, existence uniqueness and solutions of of systems (7.3,7.4)

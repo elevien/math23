@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.29)  21 MAR 2023 09:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.29)  21 MAR 2023 19:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -699,68 +699,75 @@ LaTeX Info: Redefining \nameref on input line 37.
 \@outlinefile=\write3
 \openout3 = `HW01.out'.
 
-<./1p1_1.pdf, id=4, 260.975pt x 136.51pt>
+<./1p1_1.pdf, id=12, 260.975pt x 136.51pt>
 File: ./1p1_1.pdf Graphic file (type pdf)
 <use ./1p1_1.pdf>
 Package pdftex.def Info: ./1p1_1.pdf  used on input line 50.
 (pdftex.def)             Requested size: 256.55872pt x 134.20172pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 54.
+<./1p1_3.pdf, id=13, 260.975pt x 133.49875pt>
+File: ./1p1_3.pdf Graphic file (type pdf)
+<use ./1p1_3.pdf>
+Package pdftex.def Info: ./1p1_3.pdf  used on input line 62.
+(pdftex.def)             Requested size: 256.55872pt x 131.24136pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
 
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 54.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
 
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-<./1p1_3.pdf, id=5, 260.975pt x 136.51pt>
-File: ./1p1_3.pdf Graphic file (type pdf)
-<use ./1p1_3.pdf>
-Package pdftex.def Info: ./1p1_3.pdf  used on input line 62.
-(pdftex.def)             Requested size: 256.55872pt x 134.20172pt.
- [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+) [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
  <./1p1_1.pdf> <./1p1_3.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./1p1_3.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
->] [2] [3]
+>] [2] [3] [4]
 This exam contains 0 questions with 0 parts, 0 subparts, and 0 subsubparts.
 (./HW01.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+Package rerunfilecheck Warning: File `HW01.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: File `HW01.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: Checksums for `HW01.out':
+(rerunfilecheck)             Before: 38CE2CC06C5B8003F2B4F192434311AC;322
+(rerunfilecheck)             After:  CFBD75B8542E31370B5DDCE2A5E3C916;146.
  ) 
 Here is how much of TeX's memory you used:
- 14803 strings out of 478268
- 222664 string characters out of 5846347
- 533540 words of memory out of 5000000
- 32783 multiletter control sequences out of 15000+600000
- 481505 words of font info for 70 fonts, out of 8000000 for 9000
+ 14817 strings out of 478268
+ 222803 string characters out of 5846347
+ 533650 words of memory out of 5000000
+ 32790 multiletter control sequences out of 15000+600000
+ 481852 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,13n,63p,228b,454s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{/
-usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{/usr/
-local/texlive/2022/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{/usr/loca
-l/texlive/2022/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}</usr/local/te
-xlive/2022/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol12.pfb></usr/local/te
-xlive/2022/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol6.pfb></usr/local/tex
-live/2022/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol8.pfb></usr/local/texl
-ive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texli
-ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texliv
-e/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/
-2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/20
-22/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on HW01.pdf (3 pages, 174774 bytes).
+ 60i,14n,63p,507b,454s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{subsection.1.1} has been referenced but does not ex
+ist, replaced by a fixed one
+
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{/us
+r/local/texlive/2022/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{/usr/lo
+cal/texlive/2022/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{/usr/local/
+texlive/2022/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}</usr/local/texl
+ive/2022/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol12.pfb></usr/local/texl
+ive/2022/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol6.pfb></usr/local/texli
+ve/2022/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol8.pfb></usr/local/texliv
+e/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive
+/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/
+2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/20
+22/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on HW01.pdf (4 pages, 193134 bytes).
 PDF statistics:
- 151 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
- 39 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 180 PDF objects out of 1000 (max. 8388607)
+ 138 compressed objects within 2 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 27 words of extra memory for PDF output out of 10000 (max. 10000000)
 
