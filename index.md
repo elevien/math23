@@ -10,7 +10,7 @@ logo: logo.svg
 
  **Instructor**: <a href = "https://elevien.github.io/"> Ethan Levien</a>.
 
-**Meeting time**: T/TH @ 10-12
+**Meeting time**: T/TH @ 10:10-12
 
 **Office Hours**: T @ 1
 
