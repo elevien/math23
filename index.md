@@ -16,7 +16,7 @@ logo: logo.svg
 
  **Prerequisites**: 
 
- **Course objectives**: You will learn the basic methods for solving ordinary differential equations (variation of parameters, integrating factors) and qualitative analysis of solutions (linear stability analysis and phase plane analysis). You will also learn how to build ODE models of physical, biological and social systems. 
+ **Course objectives**: You will learn the basic methods for solving ordinary differential equations (variation of parameters, integrating factors) and qualitative analysis of solutions (linear stability analysis and phase plane analysis). You will also learn how to build ODE models of physical, biological, chemical and social systems. 
 
 
 
