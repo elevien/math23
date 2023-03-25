@@ -51,7 +51,7 @@
 \end{figure}
 \noindent
 \pts{Correct drawing of vector field + 1 point}
-For 
+For any initial conditions to the solutions tends towards $3/2$. 
 \pts{Long-term behavior + 1 point}
 
 % --------------------------------------------------------------------------------------------------------------------------------------------
@@ -186,7 +186,7 @@ hence
 
 
 % --------------------------------------------------------------------------------------------------------------------------------------------
-\subsection*{Two State Markov Chain}
+\subsection*{Two State Markov Chain \grade \, \pts{10 points}}
 A very important application of ODEs is to describe how probabilities change of time in random, or \emph{stochastic}, processes called continuous time Markov Chains (CTMC). Perhaps the simplest example is a systems (say the confirmation of a molecule) which can be in one of two states, $0$ or $1$, and switches between them at a constant rate $h$. Then the probabilities to be in states $0$ and $1$ ($p_0$ and $p_1$ respectively) obey the system of two differential equations: 
 \begin{align}\label{eq:2state}
 \begin{split}
@@ -194,7 +194,37 @@ A very important application of ODEs is to describe how probabilities change of 
 \frac{d}{dt}p_1 &=  h p_0  - h p_1. 
 \end{split}
 \end{align}
-These equations are subject to the conservation of probability constraint $p_0 + p_1 = 1$. Solve the differential equations (hint: rewrite the system as a single ODE) and describe the long-term behavior. 
+These equations are subject to the conservation of probability constraint $p_0 + p_1 = 1$.  (a) Solve the differential equations (hint: rewrite the system as a single ODE) and describe the long-term behavior. 
+
+(b) For the more general Markov chain where the rates are different, the equations are 
+\begin{align}\label{eq:2state}
+\begin{split}
+\frac{d}{dt}p_0 &=  -hp_0 + w p_1 \\
+\frac{d}{dt}p_1 &=  h p_0  - w p_1. 
+\end{split}
+\end{align}
+Without solving, describe the long-term behavior of this ODE. 
+
+
+
+\subsubsection*{SOLUTION}
+\begin{enumerate}
+\item[(a)] Let $p_0 = p$ therefore $p_1 = 1-p$. The first equation (we could equivalent look at the second) becomes 
+\begin{equation}
+\frac{d}{dt}p =  -hp + h (1-p) =  h - 2h p  \quad\quad \text{\pts{Identify equation +2}}
+\end{equation}
+the solution is 
+\begin{equation}
+p = Ce^{-2th} + \frac{1}{2} \text{\pts{Solve +2}}. 
+\end{equation}
+In the long term $p$ will tend towards $1/2$ \pts{Correct long-term behavior +2}. 
+\item[(b)]  For the more general situation, 
+\begin{equation}
+\frac{d}{dt}p = w - (w+h) p  \quad\quad \text{\pts{Identify equation +2}}
+\end{equation}
+We can see that if $p> w/(w-h)$ the probability to be in state $0$ will decrease, while if $p>w/(w+h)$ the probability will increase. Thus $p$ will tend towards $w/(w+h)$ \text{\pts{Identify equation +2}}. 
+\end{enumerate}
+
 
 % --------------------------------------------------------------------------------------------------------------------------------------------
 \subsection*{Gene expression}
